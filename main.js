@@ -182,6 +182,8 @@ class Game {
 		}
 		//If the loop above did not return, that means all 3 cards are placed, so the null checks below are redundant
 		let isOrderedNumber = false;
+		//sort numbers
+		numbers.sort();
 		//TODO: Make it better...
 		if(numbers[0] + 1 === numbers[1]){
 			if(numbers[1] +1 === numbers[2]){
